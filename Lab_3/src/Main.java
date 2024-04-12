@@ -21,7 +21,7 @@ public class Main {
     private static final AtomicLong timeMatrixKahanBabushka = new AtomicLong();
 
     public static void main(String[] args) {
-        String path = "C:\\Users\\Lenovo\\Documents\\KPI\\III курс\\Корочкин\\Data\\";
+        String path = "C:\\Users\\Lenovo\\Documents\\KPI\\III курс\\ПРО\\Data\\";
         double[] B = readVectorFromFile(path+"B.txt");
         double[][] MC = readMatrixFromFile(path+"MC.txt");
         double[] D = readVectorFromFile(path+"D.txt");
